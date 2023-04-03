@@ -1,0 +1,35 @@
+{
+  "name": "hospital-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "ts-node-dev --files src/index"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@google-cloud/local-auth": "2.1.0",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "express-validator": "^6.15.0",
+    "google-spreadsheet": "^3.3.0",
+    "googleapis": "105",
+    "mongoose": "^7.0.3"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.13",
+    "@types/express": "^4.17.17",
+    "@types/google-spreadsheet": "^3.3.1",
+    "@types/morgan": "^1.9.4",
+    "@types/multer": "^1.4.7",
+    "@types/node": "^18.15.9",
+    "dotenv": "^16.0.3",
+    "morgan": "^1.10.0",
+    "multer": "1.4.5-lts.1",
+    "ts-node": "^10.9.1",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.0.2"
+  }
+}
