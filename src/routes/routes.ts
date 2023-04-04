@@ -1,6 +1,6 @@
 import { Router } from 'express'
 import { check } from 'express-validator'
-import { getSpreadSheets } from '../controllers/google'
+//import { getSpreadSheets } from '../controllers/google'
 import { getPages, getQuestionsByPage } from '../controllers/hospital'
 import { getResponses, saveResponses } from '../controllers/responses'
 import { validateQueries } from '../middlewares/vaidateQueries'
@@ -8,7 +8,7 @@ import { validateQueries } from '../middlewares/vaidateQueries'
 const router = Router()
 
 //Save data spreadsheet
-router.get('/spreadsheet', [], getSpreadSheets)
+//router.get('/spreadsheet', [], getSpreadSheets)
 
 //Get data pages
 router.get('/pages', getPages)
